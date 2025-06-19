@@ -6,45 +6,8 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="24dp"
+    android:backgroundTint="@color/white"
     android:background="#F2F2F2">
 
-    <TextView
-        android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Belajar Hidroponik"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:textColor="#388E3C"
-        android:layout_marginBottom="32dp"/>
-
-    <EditText
-        android:id="@+id/etUsername"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Username"
-        android:drawableStart="@android:drawable/ic_menu_myplaces"
-        android:padding="12dp"
-        android:background="@android:drawable/editbox_background"/>
-
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:padding="12dp"
-        android:layout_marginTop="16dp"
-        android:drawableStart="@android:drawable/ic_lock_idle_lock"
-        android:background="@android:drawable/editbox_background"/>
-
-    <Button
-        android:id="@+id/btnLogin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Login"
-        android:layout_marginTop="24dp"
-        android:backgroundTint="#66BB6A"
-        android:textColor="#FFFFFF"/>
 
 </LinearLayout>
