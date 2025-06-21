@@ -12,6 +12,8 @@
     <color name="darker_gray">#666666</color>
     <color name="light_gray">#CCCCCC</color>
 
-
+    <!-- Bottom Navigation Colors -->
+    <color name="bottom_nav_selected">#FFFFFF</color>
+    <color name="bottom_nav_unselected">#80FFFFFF</color>
 
 </resources>
