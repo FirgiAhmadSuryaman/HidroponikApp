@@ -123,6 +123,19 @@
                         android:drawablePadding="12dp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
+                <!-- Tombol Daftar -->
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:text="Daftar Akun"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/button_green_ripple"
+                    android:elevation="3dp"
+                    android:stateListAnimator="@null"
+                    android:layout_marginBottom="20dp" />
 
 
             </LinearLayout>
