@@ -62,5 +62,14 @@
             android:textStyle="bold"
             android:layout_marginBottom="8dp" />
 
+        <!-- Date -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sunday, 02 July 2030"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:layout_marginBottom="20dp" />
+
     </LinearLayout>
 </ScrollView>
