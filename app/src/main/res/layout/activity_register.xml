@@ -57,6 +57,28 @@
                     android:textSize="14sp"
                     android:layout_marginBottom="32dp" />
 
+                <!-- Email -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    app:boxBackgroundColor="#FAFAFA"
+                    app:boxStrokeColor="#4CAF50">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Email / Nomor Telepon"
+                        android:inputType="textEmailAddress"
+                        android:textSize="14sp"
+                        android:padding="16dp"
+                        android:drawableStart="@drawable/ic_email"
+                        android:drawablePadding="12dp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
