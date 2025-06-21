@@ -38,6 +38,17 @@
                 android:orientation="vertical"
                 android:padding="32dp">
 
+                <!-- Judul Form -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Daftar Akun"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif"
+                    android:layout_marginBottom="8dp" />
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
