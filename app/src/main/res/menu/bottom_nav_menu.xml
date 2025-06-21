@@ -4,4 +4,9 @@
         android:id="@+id/nav_home"
         android:icon="@drawable/ic_home"
         android:title="Home" />
+
+    <item
+        android:id="@+id/nav_tanaman"
+        android:icon="@drawable/ic_plant"
+        android:title="Tanaman" />
 </menu>
