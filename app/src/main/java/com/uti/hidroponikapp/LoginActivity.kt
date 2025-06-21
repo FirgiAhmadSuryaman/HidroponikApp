@@ -20,7 +20,13 @@ class LoginActivity : AppCompatActivity() {
             // Berpindah ke BerandaActivity
             val intent = Intent(this, Home_Activity::class.java)
             startActivity(intent)
-            finish() // Opsional: agar LoginActivity tidak bisa diakses kembali dengan tombol back
+            finish()
+        }
+
+        teksDaftar.setOnClickListener {
+            // Pindah ke Register_Activity saat TextView diklik
+            val intent = Intent(this, Register_Activity::class.java)
+            startActivity(intent)
         }
 
 
