@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="24dp"
-    android:backgroundTint="@color/white"
-    android:background="#F2F2F2">
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/gradient_background"
+        android:padding="24dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selamat\nDatang\nKembali"
+            android:textColor="@android:color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="80dp"
+            android:fontFamily="sans-serif-medium" />
+    </LinearLayout>
+
 
 </ScrollView>
+
