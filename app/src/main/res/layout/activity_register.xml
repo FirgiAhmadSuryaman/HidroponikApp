@@ -201,6 +201,18 @@
                         android:stateListAnimator="@null" />
 
                 </LinearLayout>
+
+                <!-- Tautan Login -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:padding="8dp"
+                    android:clickable="true"
+                    android:focusable="true">
+                </LinearLayout>
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
