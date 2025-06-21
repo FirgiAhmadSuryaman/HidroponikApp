@@ -186,6 +186,20 @@
                         android:layout_marginEnd="8dp"
                         android:stateListAnimator="@null" />
 
+                    <Button
+                        android:id="@+id/btnFacebookRegister"
+                        android:layout_width="0dp"
+                        android:layout_height="48dp"
+                        android:layout_weight="1"
+                        android:text="Facebook"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:background="@drawable/button_facebook"
+                        android:drawableStart="@drawable/ic_facebook_white"
+                        android:drawablePadding="8dp"
+                        android:layout_marginStart="8dp"
+                        android:stateListAnimator="@null" />
+
                 </LinearLayout>
             </LinearLayout>
 
