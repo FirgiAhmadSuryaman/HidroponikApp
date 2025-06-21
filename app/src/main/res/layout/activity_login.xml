@@ -105,9 +105,9 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="space_between|center_vertical"
-                    android:layout_marginBottom="24dp">
+                    android:layout_marginBottom="24dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
 
                     <CheckBox
                         android:id="@+id/cbRememberMe"
@@ -133,7 +133,7 @@
 
                 <!-- Tombol Masuk -->
                 <Button
-                    android:id="@+id/btnLogin"
+                    android:id="@+id/btn_login"
                     android:layout_width="match_parent"
                     android:layout_height="56dp"
                     android:text="Masuk"
@@ -228,7 +228,7 @@
                         android:textSize="13sp" />
 
                     <TextView
-                        android:id="@+id/tvRegister"
+                        android:id="@+id/tv_register"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Daftar Sekarang"
