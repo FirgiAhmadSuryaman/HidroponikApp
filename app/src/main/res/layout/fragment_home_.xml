@@ -121,6 +121,16 @@
 
         </androidx.cardview.widget.CardView>
 
+        <!-- Info Tanah Cuaca Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Info Tanah Cuaca"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
 
 
     </LinearLayout>
