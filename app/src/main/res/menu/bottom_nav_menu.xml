@@ -9,4 +9,9 @@
         android:id="@+id/nav_tanaman"
         android:icon="@drawable/ic_plant"
         android:title="Tanaman" />
+
+    <item
+        android:id="@+id/nav_chat"
+        android:icon="@drawable/ic_chat"
+        android:title="Chat" />
 </menu>
