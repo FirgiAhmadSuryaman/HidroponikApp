@@ -19,4 +19,9 @@
         android:id="@+id/nav_toko"
         android:icon="@drawable/ic_shop"
         android:title="Toko" />
+
+    <item
+        android:id="@+id/nav_tutorial"
+        android:icon="@drawable/ic_tutorial"
+        android:title="Tutorial" />
 </menu>
