@@ -211,6 +211,14 @@
                     android:padding="8dp"
                     android:clickable="true"
                     android:focusable="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kamu sudah punya akun? "
+                        android:textColor="@android:color/black"
+                        android:textSize="13sp" />
+
                 </LinearLayout>
 
             </LinearLayout>
