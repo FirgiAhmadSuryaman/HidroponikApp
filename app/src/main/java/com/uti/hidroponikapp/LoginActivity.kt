@@ -1,5 +1,6 @@
 package com.uti.hidroponikapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -11,6 +12,16 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-}
+        val tombolMasuk = findViewById<Button>(R.id.btn_login)
+
+        tombolMasuk.setOnClickListener {
+            // Berpindah ke BerandaActivity
+            val intent = Intent(this, Home_Activity::class.java)
+            startActivity(intent)
+            finish() // Opsional: agar LoginActivity tidak bisa diakses kembali dengan tombol back
+        }
+
+
+    }
 
 }
