@@ -231,6 +231,18 @@
                         android:padding="12dp"
                         android:background="@drawable/tab_selected_bg" />
 
+                    <TextView
+                        android:id="@+id/tabBeranda"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Beranda"
+                        android:textColor="#999999"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:padding="12dp"
+                        android:clickable="true"
+                        android:focusable="true" />
                 </LinearLayout>
 
             </LinearLayout>
