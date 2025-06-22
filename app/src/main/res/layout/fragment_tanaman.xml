@@ -83,6 +83,12 @@
                                 android:src="@drawable/ic_location"
                                 android:layout_marginEnd="4dp" />
 
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Jakarta Utara"
+                                android:textColor="#666666"
+                                android:textSize="14sp" />
                         </LinearLayout>
                     </LinearLayout>
 
