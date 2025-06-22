@@ -334,6 +334,19 @@
                         app:cardElevation="4dp"
                         app:cardBackgroundColor="@android:color/white">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <ImageView
+                                android:layout_width="32dp"
+                                android:layout_height="32dp"
+                                android:src="@drawable/ic_thermometer"
+                                android:layout_marginEnd="8dp" />
+
+                        </LinearLayout>
                     </androidx.cardview.widget.CardView>
 
                 </LinearLayout>
