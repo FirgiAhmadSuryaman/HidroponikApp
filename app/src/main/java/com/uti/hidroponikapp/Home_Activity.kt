@@ -37,7 +37,7 @@ class Home_Activity : AppCompatActivity() {
             when (item.itemId) {
                 R.id.nav_home -> tampilkanFragmen(Home_Fragment())
                 R.id.nav_tanaman -> {
-                    // tampilkanFragmen(TanamanFragment())
+                    // tampilkanFragmen(Tanaman_Fragment())
                     true
                 }
                 R.id.nav_chat -> {
