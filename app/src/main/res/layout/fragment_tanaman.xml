@@ -291,6 +291,19 @@
                                     android:layout_height="32dp"
                                     android:src="@drawable/ic_plant_black"
                                     android:layout_marginEnd="8dp" />
+
+                                <View
+                                    android:layout_width="0dp"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="1" />
+
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:src="@drawable/ic_arrow_right"
+                                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                                    android:clickable="true"
+                                    android:focusable="true" />
                             </LinearLayout>
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
