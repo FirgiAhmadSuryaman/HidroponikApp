@@ -305,6 +305,22 @@
                                     android:clickable="true"
                                     android:focusable="true" />
                             </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Penyiraman"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:layout_marginBottom="4dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="34 Watt"
+                                android:textColor="#666666"
+                                android:textSize="12sp" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
 
