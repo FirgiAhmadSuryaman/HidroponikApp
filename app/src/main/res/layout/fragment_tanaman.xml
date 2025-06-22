@@ -92,6 +92,14 @@
                         </LinearLayout>
                     </LinearLayout>
 
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="60dp"
+                        android:src="@mipmap/rounded_image_bg"
+                        android:scaleType="centerCrop"
+                        android:background="@drawable/rounded_image_bg" />
+
+
                 </LinearLayout>
 
             </LinearLayout>
