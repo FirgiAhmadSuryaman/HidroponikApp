@@ -109,108 +109,117 @@
                         app:cardElevation="4dp"
                         android:layout_marginBottom="24dp">
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:padding="16dp">
-
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:orientation="vertical"
-                            android:gravity="center">
-
-                            <ImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:src="@drawable/ic_wind"
-                                android:layout_marginBottom="4dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:text="Angin"
-                                android:textColor="@android:color/white"
-                                android:textSize="12sp"
-                                android:layout_marginBottom="2dp" />
+                                android:orientation="horizontal"
+                                android:padding="16dp">
 
-                            <TextView
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="1.79 km/h"
-                                android:textColor="@android:color/white"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:gravity="center">
 
-                        </LinearLayout>
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:src="@drawable/ic_wind"
+                                    android:layout_marginBottom="4dp" />
 
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:orientation="vertical"
-                            android:gravity="center">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Angin"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="12sp"
+                                    android:layout_marginBottom="2dp" />
 
-                            <ImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:src="@drawable/ic_humidity"
-                                android:layout_marginBottom="4dp" />
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="1.79 km/h"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="Kelembapan"
-                                android:textColor="@android:color/white"
-                                android:textSize="12sp"
-                                android:layout_marginBottom="2dp" />
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:gravity="center">
 
-                            <TextView
-                                android:layout_width="wrap_content"
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:src="@drawable/ic_humidity"
+                                    android:layout_marginBottom="4dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Kelembapan"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="12sp"
+                                    android:layout_marginBottom="2dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="70%"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:text="70%"
-                                android:textColor="@android:color/white"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
+                                android:layout_weight="1"
+                                android:orientation="vertical"
+                                android:gravity="center">
 
-                        </LinearLayout>
+                                <ImageView
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:src="@drawable/ic_temperature"
+                                    android:layout_marginBottom="4dp" />
 
-                        <LinearLayout
-                            android:layout_width="0dp"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:orientation="vertical"
-                            android:gravity="center">
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Temperatur"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="12sp"
+                                    android:layout_marginBottom="2dp" />
 
-                            <ImageView
-                                android:layout_width="24dp"
-                                android:layout_height="24dp"
-                                android:src="@drawable/ic_temperature"
-                                android:layout_marginBottom="4dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="Temperatur"
-                                android:textColor="@android:color/white"
-                                android:textSize="12sp"
-                                android:layout_marginBottom="2dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="4.34°C"
-                                android:textColor="@android:color/white"
-                                android:textSize="14sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="4.34°C"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
 
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
+
+                <!-- Tab layout -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="20dp">
+
+                </LinearLayout>
+
             </LinearLayout>
     </LinearLayout>
 
