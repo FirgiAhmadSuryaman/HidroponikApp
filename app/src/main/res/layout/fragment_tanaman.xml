@@ -218,6 +218,19 @@
                     android:orientation="horizontal"
                     android:layout_marginBottom="20dp">
 
+                    <TextView
+                        android:id="@+id/tabSmartLadang"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Smart Ladang"
+                        android:textColor="#4CAF50"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:padding="12dp"
+                        android:background="@drawable/tab_selected_bg" />
+
                 </LinearLayout>
 
             </LinearLayout>
