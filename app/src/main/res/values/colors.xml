@@ -16,4 +16,22 @@
     <color name="bottom_nav_selected">#FFFFFF</color>
     <color name="bottom_nav_unselected">#80FFFFFF</color>
 
+
+    <!-- Background Colors -->
+    <color name="background_color">#FFFFFF</color>
+    <color name="search_background">#F5F5F5</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Gray Colors -->
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#E0E0E0</color>
+    <color name="gray_dark">#9E9E9E</color>
+
+    <!-- Notification Colors -->
+    <color name="orange_notification">#FF9800</color>
+    <color name="green_online">#4CAF50</color>
+
 </resources>
