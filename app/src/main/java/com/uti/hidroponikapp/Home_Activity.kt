@@ -41,7 +41,7 @@ class Home_Activity : AppCompatActivity() {
                     true
                 }
                 R.id.nav_chat -> {
-                    // tampilkanFragmen(ChatFragment())
+                     tampilkanFragmen(Chat_Fragment())
                     true
                 }
                 R.id.nav_toko -> {
