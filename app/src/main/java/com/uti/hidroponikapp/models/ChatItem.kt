@@ -1,4 +1,4 @@
-package com.example.app.models
+package com.uti.hidroponikapp.models
 
 data class ChatItem(
     val id: Int,

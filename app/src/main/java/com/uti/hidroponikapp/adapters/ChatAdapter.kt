@@ -1,4 +1,4 @@
-package com.example.app.adapters
+package com.uti.hidroponikapp.adapters
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.app.R
-import com.example.app.models.ChatItem
+import com.uti.hidroponikapp.models.ChatItem
+import com.uti.hidroponikapp.R
 
 class ChatAdapter(
     private val chatList: List<ChatItem>,
