@@ -102,6 +102,13 @@
 
         </LinearLayout>
 
+        <!-- ✅ DITAMBAHKAN: RecyclerView Fertilizer -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewFertilizer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
         <!-- RecyclerView Seeds -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerViewSeeds"

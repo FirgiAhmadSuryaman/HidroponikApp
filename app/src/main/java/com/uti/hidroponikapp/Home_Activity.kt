@@ -45,7 +45,7 @@ class Home_Activity : AppCompatActivity() {
                     true
                 }
                 R.id.nav_toko -> {
-                    // tampilkanFragmen(TokoFragment())
+                     tampilkanFragmen(ShopFragment())
                     true
                 }
                 R.id.nav_tutorial -> {
