@@ -109,6 +109,30 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp" />
 
+        <!-- Section Bestseller Products -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_vertical">
 
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Bestseller"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_primary" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lihat Semua"
+                android:textSize="12sp"
+                android:textColor="@color/green_primary" />
+
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
