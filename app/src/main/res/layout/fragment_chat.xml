@@ -132,7 +132,16 @@
                     android:src="@drawable/ic_search"
                     app:tint="@android:color/white" />
             </androidx.cardview.widget.CardView>
-
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
+
+    <!-- Chat List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewChats"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="16dp"
+        android:clipToPadding="false" />
 </LinearLayout>
