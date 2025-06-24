@@ -5,11 +5,12 @@
     android:viewportWidth="48"
     android:viewportHeight="48">
 
+    <!-- Lingkaran latar biru -->
     <path
         android:fillColor="#2196F3"
-        android:pathData="M24,24m-24,0a24,24 0,1 1,48 0a24,24 0,1 1,-48 0"/>
+        android:pathData="M24,0a24,24 0 1,0 0.00001,0z" />
 
-    <!-- Park/Tree icon -->
+    <!-- Ikon pohon -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="M24,8c-4.42,0 -8,3.58 -8,8c0,2.21 0.9,4.21 2.34,5.66L24,28l5.66,-6.34C31.1,20.21 32,18.21 32,16C32,11.58 28.42,8 24,8z"/>
@@ -18,9 +19,8 @@
         android:fillColor="#FFFFFF"
         android:pathData="M22,32h4v8h-4z"/>
 
-    <circle
+    <!-- Lingkaran putih pengganti <circle> -->
+    <path
         android:fillColor="#FFFFFF"
-        android:cx="24"
-        android:cy="16"
-        android:radius="3"/>
+        android:pathData="M24,13a3,3 0 1,0 0.00001,0z"/>
 </vector>
